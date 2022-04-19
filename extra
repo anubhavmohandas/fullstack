@@ -1,0 +1,122 @@
+<!-- Website -->
+A collection of webpages is known as a Website.
+
+A website has three parts: -
+    Frontend - The content that are visible to the end user.
+    Browser Scripting - Browser send some script like Alert box and all
+    Backend - A program through which the website works but can not be accessed by a user.
+
+<!-- Syllabus -->
+
+    HTML 
+<!-- RAW DATA -->
+    CSS
+<!-- Design & Feel -->
+    BOOTSTRAP
+<!-- Third Party CSS -->
+    MEDIAQUERY
+<!-- Align everything according to the screen size-->
+    JAVASCRIPT
+<!-- Scripting Work (alert box, dark light mode) -->
+    PHP
+<!-- Login Logout (Authentication & Authorization) -->
+    SQL
+<!-- Backend -->
+
+HTML - Hypertext Markup Language
+    Hypertext > It refers to the way in which web pages are linked together.
+    Markup > Sequencing or well defined & well structured
+
+IDE - Integrated Development Environment
+
+<!-- Software where we can use for web development (Text editors). -->
+Sublime 
+Atom
+Notepad
+Notepad++
+Visual Studio Code (Suggested)
+etc..
+
+HTML
+> Hypertext Markup Language
+> Helps to create our own website.
+> Connect a series of web pages
+> Creates an Interaction with Browser
+> .html > Extension
+
+CSS
+> Cascading Style Sheet
+> GIves a look and makes a design for our website.
+
+Design 
+> Inline CSS - In Tagname
+> Style Tag / Internal CSS / Embeeded CSS - CSS in Head Tag (<head>)
+> Style Sheet / External CSS - Css in a different file.
+
+
+<!-- Paired Tag -->
+<head>Content</head> 
+<body></body>
+<h1></h1>
+<html></html>
+
+<!-- Empty Tag -->
+<br> > Break
+<hr> > Horizontal Ray
+
+<!-- Attributes -->
+<a></a>
+<img></img>
+alt
+title
+style
+    <!-- Inline CSS -->
+    <tagname(p, h1, h2, h3, h4, h5, span, etc...) style="property:value">
+        <h1 style="color:blue">
+    
+    <!-- Internal CSS -->
+    <head>
+        <style>
+            .
+            #
+        </style>
+    </head>
+
+    <!-- External CSS -->
+        New Stylesheet (.css file)
+
+Formatting
+    <b></b> (bold)
+        <strong></strong> (bold)
+    <i></i> (italic)
+        <em></em>(emphasized / italic)
+    <mark></mark>
+    <small></small>
+    <sub></sub> (subscript)
+    <sup></sup> (superscript)
+    <center></center>
+    <del></del>
+    <ins></ins>
+
+Quotations
+    <cite></cite> // Images Caption / Italic
+    <address></address> // Defines the address
+    <abbr></abbr> // title
+    <blockquote></blockquote> // third party writings
+
+Div (Division)
+    Class (.)
+    ID (#)
+        Priototy Basis
+            ID > Class
+
+Links
+    <a href>
+    <img src>
+
+Media
+    Video
+    Audio
+    YOUTUBE
+
+Lists
