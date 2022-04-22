@@ -1,0 +1,16 @@
+h1{
+    color:red; /*text Color*/
+}
+
+p{
+    background-color:wheat;
+    margin-right: 8%;
+    border: 1px solid red;
+    /* border-radius:50%; */
+    /* padding-left:10%; */
+    text-align:center;
+    /* justify-content: center; */
+    height: 100%;
+    width: 50%;
+    box-shadow: 15px 8px 10px grey;
+}

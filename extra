@@ -105,8 +105,8 @@ Quotations
     <blockquote></blockquote> // third party writings
 
 Div (Division)
-    Class (.)
-    ID (#)
+    Class (.) - Common Property
+    ID (#) - Unique Property
         Priototy Basis
             ID > Class
 
@@ -120,3 +120,4 @@ Media
     YOUTUBE
 
 Lists
+Tables

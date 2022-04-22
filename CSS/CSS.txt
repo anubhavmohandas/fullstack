@@ -1,0 +1,24 @@
+CSS
+> Cascading Style Sheet
+> Gives a look and makes a design for our website.
+
+3 Type of CSS are there:
+
+> Inline CSS - In Tagname
+    -> <h1 style="color:blue">Classroom</h1>
+
+> Style Tag / Internal CSS / Embeeded CSS - CSS in Head Tag (<head>)
+    -> <head>
+                <style>
+                    body{
+                        background-color: rgb(217, 196, 178);
+                    }
+                </style>
+        </head>
+
+> Style Sheet / External CSS - Css in a different file.
+
+PRIORITY ORDER: -
+    Inline CSS > Internal CSS > External CSS
+
+Extension - .css
