@@ -22,3 +22,9 @@ PRIORITY ORDER: -
     Inline CSS > Internal CSS > External CSS
 
 Extension - .css
+
+
+background-size
+background-repeat
+display
+letter-spacing

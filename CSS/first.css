@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,500&display=swap');
+
+body{
+    background-image: url(../HTML/black-carbon-fibre-texture--dark-tech-background.jpg);
+}
+
 h1{
     color:red; /*text Color*/
 }
 
 p{
     background-color:wheat;
-    margin-right: 8%;
+    /* margin-right: 8%; */
     border: 1px solid red;
     /* border-radius:50%; */
     /* padding-left:10%; */
@@ -13,4 +19,23 @@ p{
     height: 100%;
     width: 50%;
     box-shadow: 15px 8px 10px grey;
+    /* background-position: center; */
+    /* text-align:end; */
+    justify-content:space-between;
+    /* letter-spacing: 10% !important; */
+}
+
+.search > img{
+    height: 580px;
+    width: 100%;
+    background-size: cover;
+}
+
+.search > a{
+    font-size: 50px;
+    text-decoration: none;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+
 }
