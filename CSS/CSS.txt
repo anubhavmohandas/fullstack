@@ -1,6 +1,7 @@
 CSS
 > Cascading Style Sheet
 > Gives a look and makes a design for our website.
+Extension - .css
 
 3 Type of CSS are there:
 
@@ -21,8 +22,18 @@ CSS
 PRIORITY ORDER: -
     Inline CSS > Internal CSS > External CSS
 
-Extension - .css
+.trial{
+    color:rgb(255, 255, 4); /*Declaration*/
+} 
+    > trial - Selector
+    > color: property
+    > rgb :value
+    > color:rgb(255, 255, 255) - declaration
 
+Selectors: 
+    ID Selector - #
+    Class Selector - .
+    Universal Selector - *
 
 background-size
 background-repeat
