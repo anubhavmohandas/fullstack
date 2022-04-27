@@ -4,7 +4,15 @@
     color:rgba(86, 168, 54, 0.951);
 } */
 body{
-    background-image: url(../HTML/black-carbon-fibre-texture--dark-tech-background.jpg);
+    background-image:url('../Images/black-carbon-fibre-texture--dark-tech-background.jpg')
+}
+
+.container{
+    background-image:url('../Images/ezgif-1-be16897a81.jpg');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment: scroll;
+
 }
 
 h1{
@@ -58,3 +66,11 @@ h1{
     color:white;
     font-size: 50px;
 } */
+
+.search > p{
+    color:#0c4140; 
+    border: 2px solid rgb(126, 108, 84);
+    /* background-color:hsl(0, 62%, 54%); */
+    background-color: lightcyan;
+    opacity:0.7; /*Transparency of a particular element*/
+}

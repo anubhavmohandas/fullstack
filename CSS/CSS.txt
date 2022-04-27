@@ -35,6 +35,11 @@ Selectors:
     Class Selector - .
     Universal Selector - *
 
+Color:
+    HEX - #04f9f6
+    RGB - rgb(255, 255, 4)
+    HSL - hsl(0, 62%, 54%)
+
 background-size
 background-repeat
 display
