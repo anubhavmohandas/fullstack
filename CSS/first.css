@@ -9,11 +9,32 @@ body{
 
 .container{
     background-image:url('../Images/ezgif-1-be16897a81.jpg');
+    /* position: absolute;
+    right:0px; */
     background-repeat:no-repeat;
     background-position:right top;
     background-attachment: scroll;
-
+    /* z-index: -1; */
 }
+
+.container > h3{
+    /* border:1px dashed green; */
+    border-style: dotted;
+    border-width: 1px ;
+    border-radius: 10px;
+}
+.mypara{
+    /* margin: 20px 10px; */
+    border: 1px solid red;
+    /* padding-left: 10px; */
+    height: 100%;
+    width: 100%;
+}
+
+/* .container > span{
+    border: 1px solid brown;
+} */
+
 
 h1{
     color:red; /*text Color*/

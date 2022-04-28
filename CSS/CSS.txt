@@ -40,7 +40,23 @@ Color:
     RGB - rgb(255, 255, 4)
     HSL - hsl(0, 62%, 54%)
 
-background-size
-background-repeat
+Background:
+    background-image:url('../Images/ezgif-1-be16897a81.jpg');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment: scroll;
+
+Border:
+    dashed
+    dotted
+    double
+    solid
+    dotted double dashed solid (Mixed)
+
+margin
+padding
+height
+width
+
 display
 letter-spacing
