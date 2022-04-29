@@ -57,6 +57,6 @@ margin
 padding
 height
 width
+text
 
 display
-letter-spacing
