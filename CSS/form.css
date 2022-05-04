@@ -1,0 +1,29 @@
+#my-form{
+    padding: 20px;
+}
+
+#my-form .form-group{
+    padding-bottom: 20px;
+}
+
+#my-form label{
+    display:block;
+}
+
+#my-form .input-type{
+    padding:8px;
+    width:100%;
+}
+
+.btn{
+    padding:8px 12px;
+    border-radius:5px;
+    border:none;
+    background-color:darkmagenta;
+    color:white;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color:darkred
+}

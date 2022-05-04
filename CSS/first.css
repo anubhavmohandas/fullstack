@@ -161,3 +161,35 @@ h1{
     a:active{
         background-color:antiquewhite;
     } */
+
+#my-form{
+    padding: 20px;
+}
+
+#my-form .form-group{
+    padding-bottom: 20px;
+}
+
+#my-form label{
+    display:block;
+}
+
+#my-form .input-type{
+    padding:8px;
+    width:100%;
+}
+
+.overflow{
+    width: 250px;
+    height: 70px;
+    border: 1px solid red;
+    background-color: aquamarine;
+    overflow:auto;
+    /* margin-bottom:50px; */
+}
+
+.my-float img{
+    float: right;
+    text-align: center;
+    justify-content: center;
+}
