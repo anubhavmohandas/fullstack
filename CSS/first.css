@@ -193,3 +193,29 @@ h1{
     text-align: center;
     justify-content: center;
 }
+
+.clear-fix{
+    clear: both;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    position:relative;
+}
+
+.position-box h1{
+    position:absolute;
+    top: 150px;
+    left:150px;
+}
+
+.mylist :nth-child(even){
+    background:yellow;
+}
+
+.mylist :nth-child(odd){
+    background:wheat;
+}
