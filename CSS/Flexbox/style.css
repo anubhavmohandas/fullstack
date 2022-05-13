@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a{
+    color:white;
+    text-decoration:none;
+}
+
 .box{
     color:white;
     font-size: 100px;
@@ -52,23 +57,20 @@
 
 .container{
     display:flex;
+    justify-content:center;
+    align-items: baseline;
     /* border:1px solid black;
     height:90vh; */
     /* flex-direction:row; */
-    justify-content:center;
-    align-items: baseline;
-    
-
-
 }
 
 /* .box3{
-    order:1;
+    order:2;
 }
 
 .box7{
-    order
-}*/
+    order:1
+} */
 
 .box1{
     font-size:30px;
