@@ -49,10 +49,12 @@ a{
 
 .box9{
     background:rgb(179, 27, 98);
+    font-size:90px;
 }
 
 .box10{
     background:rgb(160, 52, 210);
+    font-size:60px;
 }
 
 .container{
@@ -103,12 +105,4 @@ a{
 
 .box8{
     font-size:120px;
-}
-
-.box9{
-    font-size:90px;
-}
-
-.box10{
-    font-size:60px;
 }
