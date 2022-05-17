@@ -20,16 +20,17 @@ img{
     height: 100px;
     background-color:wheat;
     border: 1px solid black;
-    transition: ease-in-out 2s infinite;
+    transition: 2s;
 }
-@keyframes mymove {
+/* @keyframes mymove {
     from {left: 0px;}
     to {left: 300px;}
-}
+} */
 .T1:hover{
     width: 100%;
     background-color:rgb(197, 140, 140);
     font-size: larger;
     font-weight: bolder;
+    transition-timing-function: ease-in;
     /* transform:scale(1.1); */
 }
