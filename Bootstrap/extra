@@ -1,0 +1,9 @@
+Bootstrap
+    3rd Party CSS 
+    Grid System - 12 Coloumns
+    -> xs - extra small (768px)
+    -> sm - small (<768)
+    -> md - medium {992}
+    -> lg - large (1200)
+
+    -> col-xs/sm/md/lg-4/3
