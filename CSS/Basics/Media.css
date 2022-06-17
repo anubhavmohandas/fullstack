@@ -1,0 +1,20 @@
+p{
+    width:100%;
+    background-color: aqua;
+}
+
+img{
+    width: 800px;
+    height: 750px;
+}
+
+@media screen and (max-width:992px){
+    p{
+        background-color: yellowgreen;
+    }
+
+    img{
+        width: 580px;
+        height: 500px;
+    }
+}
