@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+
+}
+
+h1{
+    color: brown;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+
+.today{
+    background-color: bisque;
+}
+
+.yes{
+    background-color: cadetblue;
+}
+
+img{
+margin-left: 400px;
+}
+
+@media screen and (max-width: 1100px){
+    .today{
+        background-color: black;
+        color:white;
+    }
+
+    .yes{
+        background-color: blueviolet;
+        color:yellow;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .today{
+        background-color: chartreuse;
+        color:black;
+    }
+
+    .yes{
+        background-color: tomato;
+    }
+
+    img{
+        margin-left:25%;
+    }
+}
