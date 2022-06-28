@@ -1,10 +1,10 @@
-alert(HACKED);
+// alert("HACKED");
 
-// const para = document.querySelector('p');
+const para = document.querySelector('p');
 
-// para.addEventListener('click', updateName);
+para.addEventListener('click', updateName);
 
-// function updateName() {
-//   const name = prompt('Enter a new name');
-//   para.textContent = `Player 1: ${name}`;
-// }
+function updateName() {
+  const name = prompt('Enter a new name');
+  para.textContent = `Hey my name is: ${name}`;
+}
