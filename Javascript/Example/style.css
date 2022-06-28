@@ -1,0 +1,11 @@
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    border:2 px solid red;
+    background-color: lightgoldenrodyellow;
+    color:red;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
