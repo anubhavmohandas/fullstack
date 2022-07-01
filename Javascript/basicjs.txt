@@ -118,7 +118,6 @@ for (let num = 0; num <= 10; num++){
 }
 
 // DATATYPES
-/* 
 let name = "Anubhav" //String
 let mob = 748685 // Number
 let obj = {firstname: "Anubhav", lastname:"Mohandas"}; //OBJECT
@@ -126,9 +125,32 @@ true = false // Boolean
 let languages = ['HTML', 'Python', 'C', 'C#', 'JS'] //Array
 let random; //undefined
 let empty = null
-*/
+
+// OBJECT   
+-> They contain multiple Values
+-> They will be in Pair
+-> They always start with { & ends with }
 
 // Strings
-// let name='Anubhav \nMohandas' //New Line
-let name="Anubhav";
-console.log(name.replace("Anubhav", "Sreehari"))
+let name='Anubhav \nMohandas' //New Line
+console.log(name)
+Anubhav 
+Mohandas
+
+console.log(name)
+Anubhav
+undefined
+console.log(name.slice(0, 2))
+An
+undefined
+console.log(name.indexOf('A'))
+0
+undefined
+console.log(name.length)
+7
+
+console.log(name.toUpperCase(name))
+ANUBHAV
+undefined
+console.log(name.toLowerCase(name))
+anubhav
