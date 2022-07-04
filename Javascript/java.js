@@ -113,7 +113,7 @@ while (false){
 }
 
 /* For Loop */
-for (let num = 0; num <= 10; num++){
+for (let num = 0; num <= 1; num++){
     console.log(num);
 }
 
@@ -132,3 +132,6 @@ let empty = null
 // let name='Anubhav \nMohandas' //New Line
 let name="Anubhav";
 console.log(name.replace("Anubhav", "Sreehari"))
+
+//Array
+let mob = ['1+', 'realme', 'Apple','samsung']

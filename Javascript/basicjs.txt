@@ -154,3 +154,183 @@ ANUBHAV
 undefined
 console.log(name.toLowerCase(name))
 anubhav
+
+
+// Array
+let mob = ['1+', 'realme', 'Apple','samsung']
+undefined
+alert (name[2])
+undefined
+alert (mob[2])
+undefined
+console.log(mob)
+VM705:1 (4) ['1+', 'realme', 'Apple', 'samsung']
+undefined
+mob[0] = 'OnePlus'
+'OnePlus'
+console.log(mob)
+VM767:1 (4) ['OnePlus', 'realme', 'Apple', 'samsung']
+undefined
+mob[4] = 'Redmi'
+'Redmi'
+console.log(mob)
+VM850:1 (5) ['OnePlus', 'realme', 'Apple', 'samsung', 'Redmi']0: "OnePlus"1: "realme"2: "Apple"3: "samsung"4: "Redmi"length: 5[[Prototype]]: Array(0)
+undefined
+mob[5] = 'Micromax'
+'Micromax'
+console.log(mob)
+VM913:1 (6) ['OnePlus', 'realme', 'Apple', 'samsung', 'Redmi', 'Micromax']0: "OnePlus"1: "realme"2: "Apple"3: "samsung"4: "Redmi"5: "Micromax"length: 6[[Prototype]]: Array(0)
+undefined
+for (let i=0; i<mob.length; i++) {
+    console.log(mob[i])
+}
+VM1078:2 OnePlus
+VM1078:2 realme
+VM1078:2 Apple
+VM1078:2 samsung
+VM1078:2 Redmi
+VM1078:2 Micromax
+undefined
+for (let i=0; i < mob.length; i++) {
+    console.log(mob[i])
+}
+VM1108:2 OnePlus
+VM1108:2 realme
+VM1108:2 Apple
+VM1108:2 samsung
+VM1108:2 Redmi
+VM1108:2 Micromax
+undefined
+console.log('Hey buddy! I have', mob.toString())
+VM1278:1 Hey buddy! I have OnePlus,realme,Apple,samsung,Redmi,Micromax
+
+console.log(mob.join(' + '))
+VM1455:1 OnePlus + realme + Apple + samsung + Redmi + Micromax
+undefined
+console.log(mob)
+VM1542:1 (6) ['OnePlus', 'realme', 'Apple', 'samsung', 'Redmi', 'Micromax']
+undefined
+console.log(mob, mob.pop(), mob)
+VM1719:1 (5) ['OnePlus', 'realme', 'Apple', 'samsung', 'Redmi'] 'Micromax' (5) ['OnePlus', 'realme', 'Apple', 'samsung', 'Redmi']
+undefined
+console.log(mob.pop())
+VM1760:1 Redmi
+undefined
+console.log(mob)
+VM1772:1 (4) ['OnePlus', 'realme', 'Apple', 'samsung']
+undefined
+console.log(mob.push('redmi'))
+VM1833:1 5
+undefined
+console.log(mob)
+VM1839:1 (5) ['OnePlus', 'realme', 'Apple', 'samsung', 'redmi']
+undefined
+mob [mob.length] = 'Micromax'
+'Micromax'
+console.log(mob)
+VM1928:1 (6) ['OnePlus', 'realme', 'Apple', 'samsung', 'redmi', 'Micromax']
+undefined
+mob [mob.shift()] = 'Micromax'
+'Micromax'
+console.log(mob)
+VM1984:1 (5) ['realme', 'Apple', 'samsung', 'redmi', 'Micromax', OnePlus: 'Micromax']
+undefined
+mob [mob.unshiftshift()] = 'Micromax'
+VM2019:1 Uncaught TypeError: mob.unshiftshift is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM2019:1
+mob [mob.unshift()] = 'Micromax'
+'Micromax'
+console.log(mob)
+VM2057:1 (6) ['realme', 'Apple', 'samsung', 'redmi', 'Micromax', 'Micromax', OnePlus: 'Micromax']0: "OnePlus"1: "realme"2: "Apple"3: "redmi"length: 4[[Prototype]]: Array(0)
+undefined
+mob.pop()
+'Micromax'
+mob.pop()
+'Micromax'
+mob.pop()
+'redmi'
+console.log(mob)
+VM2185:1 (3) ['realme', 'Apple', 'samsung', OnePlus: 'Micromax']
+undefined
+mob.pop()
+'samsung'
+mob.unshift('OnePlus')
+3
+mob.pop()
+'Apple'
+console.log(mob)
+VM2269:1 (2) ['OnePlus', 'realme', OnePlus: 'Micromax']
+undefined
+mob.push ('Apple')
+3
+mob.push ('redmi')
+4
+console.log(mob)
+VM2368:1 (4) ['OnePlus', 'realme', 'Apple', 'redmi', OnePlus: 'Micromax']0: "OnePlus"1: "realme"2: "Apple"3: "redmi"length: 4[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+undefined
+let profession = ['Tutor','Researcher','Counsellor']
+undefined
+let all = mob.concat(profession);
+undefined
+console.log(all)
+VM2663:1 (7) ['OnePlus', 'realme', 'Apple', 'redmi', 'Tutor', 'Researcher', 'Counsellor']
+undefined
+console.log(all.reverse())
+VM2705:1 (7) ['Counsellor', 'Researcher', 'Tutor', 'redmi', 'Apple', 'realme', 'OnePlus']
+undefined
+console.log(all.sort())
+VM2743:1 (7) ['Apple', 'Counsellor', 'OnePlus', 'Researcher', 'Tutor', 'realme', 'redmi']
+undefined
+console.log(mob)
+VM2801:1 (4) ['OnePlus', 'realme', 'Apple', 'redmi']0: "OnePlus"1: "realme"2: "Apple"3: "redmi"length: 4[[Prototype]]: Array(0)
+undefined
+let nos = [1 , 4 , 34, 56, 12, 78, 844, 859, 373]
+undefined
+console.log(nos)
+VM2979:1 (9) [1, 4, 34, 56, 12, 78, 844, 859, 373]
+undefined
+console.log(nos.sort())
+VM3028:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]
+undefined
+console.log(nos.sort())
+VM3032:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]0: 11: 122: 343: 3734: 45: 566: 787: 8448: 859length: 9[[Prototype]]: Array(0)
+undefined
+console.log(nos.sort(function (a, b) {return 
+    a-b}))
+VM3138:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]
+undefined
+console.log(nos.sort(function (a, b) {return 
+    a-b 
+                                     }))
+VM3154:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]
+undefined
+console.log(nos.sort(function (a, b) {return 
+    b-a}))
+VM3186:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]
+undefined
+console.log(nos.sort(a-b))
+VM3234:1 Uncaught TypeError: The comparison function must be either a function or undefined
+    at Array.sort (<anonymous>)
+    at <anonymous>:1:17
+(anonymous) @ VM3234:1
+console.log(nos.sort(function (a, b) {return 
+    b-a
+                                     
+}))
+VM3273:1 (9) [1, 12, 34, 373, 4, 56, 78, 844, 859]
+undefined
+console.log(nos.sort(function (a, b) {
+    return (a-b)
+    }))
+VM3367:1 (9) [1, 4, 12, 34, 56, 78, 373, 844, 859]
+undefined
+console.log(nos.sort(function (a, b) {
+    return (b-a)
+    }))
+VM3413:1 (9) [859, 844, 373, 78, 56, 34, 12, 4, 1]
+undefined
+mob[6] = 'Karbon'
+'Karbon'
+mob
+(7) ['OnePlus', 'realme', 'Apple', 'redmi', empty × 2, 'Karbon']0: "OnePlus"1: "realme"2: "Apple"3: "redmi"6: "Karbon"length: 7[[Prototype]]: Array(0)
