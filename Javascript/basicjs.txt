@@ -334,3 +334,83 @@ mob[6] = 'Karbon'
 'Karbon'
 mob
 (7) ['OnePlus', 'realme', 'Apple', 'redmi', empty × 2, 'Karbon']0: "OnePlus"1: "realme"2: "Apple"3: "redmi"6: "Karbon"length: 7[[Prototype]]: Array(0)
+
+
+
+// Object
+let obj = {firstname: "Anubhav", lastname:"Mohandas", age:20};
+console.log(obj.firstname)
+// Anubhav
+console.log(obj.lastname)
+// Mohandas
+
+obj.firstname = 'sreehari'
+'sreehari'
+console.log(obj.firstname)
+sreehari
+
+obj
+{firstname: 'Anubhav', lastname: 'Mohandas', age: 20}
+console.log(obj.age)
+20
+undefined
+obj.age++
+20
+console.log(obj.age)
+21
+
+var age = prompt("What is your age?");
+
+if ((age >= 15) && (age <= 35)) {
+    status = "Yes You are";
+    console.log(status)
+} else {
+    status = "No you are not";
+    console.log(status)
+}
+VM564:5 Yes You are
+undefined
+var age = prompt("What is your age?");
+
+if ((age >= 15) && (age <= 35)) {
+    status = "Yes You are";
+    console.log(status)
+} else {
+    status = "No you are not";
+    console.log(status)
+}
+No you are not
+
+switch (2){
+    case 0 :
+        text = "Weekend"
+        break;
+    case 5 : 
+        text = "Weekend"
+        break;
+    case 6 :
+        text = "Weekend"
+        break;
+    
+    default:
+        text = "Weekday"
+}
+console.log(text)
+ Weekday
+undefined
+switch (6){
+    case 0 :
+        text = "Weekend"
+        break;
+    case 5 : 
+        text = "Weekend"
+        break;
+    case 6 :
+        text = "Weekend"
+        break;
+    
+    default:
+        text = "Weekday"
+}
+console.log(text)
+ Weekend

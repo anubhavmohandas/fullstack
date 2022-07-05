@@ -135,3 +135,49 @@ console.log(name.replace("Anubhav", "Sreehari"))
 
 //Array
 let mob = ['1+', 'realme', 'Apple','samsung']
+
+// Object
+let obj = {firstname: "Anubhav", lastname:"Mohandas", age:20};
+console.log(obj.firstname)
+// Anubhav
+console.log(obj.lastname)
+// Mohandas
+
+// obj.firstname = 'sreehari'
+// 'sreehari'
+// console.log(obj.firstname)
+// sreehari
+
+/* Conditional Statements */
+// IF - ELSE Statement
+// Switch
+
+// IF - ELSE Statement
+// && - AND, || - OR
+var age = 45 //prompt("What is your age?");
+
+if ((age >= 15) && (age <= 35)) {
+    status = "Yes You are";
+    console.log(status)
+} else {
+    status = "No you are not";
+    console.log(status)
+}
+
+// SWITCH STATEMENTS
+
+switch (2){
+    case 0 :
+        text = "Weekend"
+        break;
+    case 5 : 
+        text = "Weekend"
+        break;
+    case 6 :
+        text = "Weekend"
+        break;
+    
+    default:
+        text = "Weekday"
+}
+console.log(text)
