@@ -1,4 +1,4 @@
-// alert('Hey Buddy');
+alert('Hey Buddy');
 
 // variables = var
 
@@ -11,7 +11,7 @@ console.log(result)
 var a = "Anubhav"
 console.log(a)
 
-document.getElementById('me').innerHTML='Namaste';
+document.getElementById('me').innerHTML='Namastee';
 
 // prompt('what is your age');
 // var age = prompt
@@ -113,7 +113,7 @@ while (false){
 }
 
 /* For Loop */
-for (let num = 0; num <= 1; num++){
+for (let num = 0; num <= 10; num++){
     console.log(num);
 }
 
