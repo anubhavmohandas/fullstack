@@ -1,0 +1,19 @@
+PHP - Personal Home Page (Rasmus Lerdorf - 1994)
+HYPERTEXT PREPROCESSOR
+FREE - OPEN SOURCE
+FAST
+RELIABLE
+FLEXIBLE 
+SECURITY ENCRYPTION
+DYNAMIC
+COMPATIBLE - Shows as per user's need
+
+PHP - Server Side (Back-end) Language which is embeeded (join) with HTML for        web-development.
+
+Extension = .php
+Usage: - 
+<? php
+// Code of PHP //
+?>
+
+https://www.apachefriends.org/download.html 
